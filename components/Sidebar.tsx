@@ -20,9 +20,9 @@ const links = [
 const Sidebar = () => {
   return (
     <Card className="h-full w-40 flex items-center justify-between flex-wrap">
-      <div className="w-full flex justify-center items-center">
+      {/* <div className="w-full flex justify-center items-center">
         <Image src="https://app.logo.com/view/logo_90627c38-58c0-414c-aaea-812eec2074dc" alt="Able logo" priority className="w-14" />
-      </div>
+      </div> */}
       {links.map((link) => (
         <SidebarLink link={link} />
       ))}
