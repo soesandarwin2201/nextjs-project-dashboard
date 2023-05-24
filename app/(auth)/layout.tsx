@@ -1,4 +1,5 @@
 import "@/styles/global.css";
+import GlassPane from "@/components/GlassPlane";
 // import { Inter } from "@next/font/google";
 
 // const inter = Inter({
